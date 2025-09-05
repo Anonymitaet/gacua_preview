@@ -194,6 +194,7 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 
 <img width="1731" height="313" alt="image" src="https://github.com/user-attachments/assets/e2d9b778-9451-4634-87ba-7becce5cae13" />
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c53486e2-9a93-4c45-bd7c-c6611c7006c6" />
 
 ## 📜 License
 
