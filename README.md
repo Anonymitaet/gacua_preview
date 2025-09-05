@@ -192,11 +192,7 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 
 [Star GACUA on GitHub](TBD) to be instantly notified of updates. Your support means everything to us! ❤️
 
-<img width="500" height="350" alt="star" src="https://github.com/user-attachments/assets/96e30b54-a22c-4fba-b010-45fa1fd52e99" />
-
 <img width="210" height="118" alt="star2" src="https://github.com/user-attachments/assets/415202c1-a59d-4a8c-875e-4f5247b432b1" />
-
-![star3](https://github.com/user-attachments/assets/3843cd06-463b-4b7e-9255-92a07083e942)
 
 ## 📜 License
 
