@@ -1,4 +1,4 @@
-<img width="1730" height="522" alt="image" src="https://github.com/user-attachments/assets/61dad315-7a16-47f0-8de8-193691e54d63" />
+<img width="1730" height="522" alt="image" src="https://github.com/user-attachments/assets/a7678648-b187-48de-b83e-3ced9ed6db61" />
 
 <p align="center">
   <strong>The world's first out-of-the-box computer use agent powered by Gemini CLI.</strong>
@@ -194,6 +194,9 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 ## ⭐ Stay Ahead
 
 Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
+
+<img width="467" height="313" alt="image" src="https://github.com/user-attachments/assets/e9208ec9-6d2f-4916-8a69-e44baff6bc8f" />
+
 
 ## 📜 License
 
