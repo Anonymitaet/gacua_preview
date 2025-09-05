@@ -3,14 +3,6 @@
 <img width="3459" height="1043" alt="image" src="https://github.com/user-attachments/assets/cfff889b-d7b9-487f-8e36-4926966a4681" />
 
 <p align="center">
-  <a href="https://github.com/google-gemini/gacua">
-    <img src="https://raw.githubusercontent.com/google-gemini/gacua/main/assets/gacua_logo.png" alt="GACUA Logo" width="200">
-  </a>
-</p>
-
-<h1 align="center">GACUA (Gemini CLI as Computer Use Agent)</h1>
-
-<p align="center">
   <strong>The world's first out-of-the-box computer use agent powered by Gemini CLI.</strong>
 </p>
 
