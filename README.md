@@ -1,5 +1,6 @@
-<img width="3459" height="626" alt="image" src="https://github.com/user-attachments/assets/245f179a-f6d6-426d-bda2-d2eeb2603933" />
+<img width="3459" height="1198" alt="image" src="https://github.com/user-attachments/assets/7501cc82-26ba-4b87-b4d5-1980bde4eb13" />
 
+<img width="3459" height="1043" alt="image" src="https://github.com/user-attachments/assets/cfff889b-d7b9-487f-8e36-4926966a4681" />
 
 <p align="center">
   <a href="https://github.com/google-gemini/gacua">
