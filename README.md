@@ -1,8 +1,5 @@
 <img width="1730" height="522" alt="image" src="https://github.com/user-attachments/assets/a7678648-b187-48de-b83e-3ced9ed6db61" />
 
-<p align="center">
-  <strong>The world's first out-of-the-box computer use agent powered by Gemini CLI.</strong>
-</p>
 
 <p align="center">
   <a href="#quick-start">Quick Start</a> •
