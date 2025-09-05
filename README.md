@@ -192,6 +192,8 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 
 Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
 
+<img width="1731" height="358" alt="image" src="https://github.com/user-attachments/assets/57389a49-4bb0-4246-8b6c-3d4cc2b90c6e" />
+
 <img width="1731" height="313" alt="image" src="https://github.com/user-attachments/assets/e2d9b778-9451-4634-87ba-7becce5cae13" />
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c53486e2-9a93-4c45-bd7c-c6611c7006c6" />
