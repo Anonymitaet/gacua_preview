@@ -2,6 +2,8 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
+[![Discord](https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord)](https://discord.com/invite/d9ewZkWPTP)
+
 <p align="center">
   <a href="#showcases">Discord</a> •
   <a href="#why-gacua">Blog</a>
@@ -34,34 +36,18 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Booking Hotel</strong>
+        <video src="https://github.com/user-attachments/assets/a7453eb9-a9a0-438b-b3d2-35dc871d6191" width="400" controls></video>
       </td>
       <td align="center" width="50%">
-        <strong>Generate Chart with extra MCP Servers</strong>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <video src="https://github.com/user-attachments/assets/afd03459-9588-429a-85a9-4f90f3358959" width="400" controls></video>
-      </td>
-      <td align="center" width="50%">
-        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/mcp-chart.mp4" width="400" controls></video>
+        <video src="https://github.com/user-attachments/assets/44b9b90e-5f1c-4d80-97f6-3f44ee377170" width="400" controls></video>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <strong>Gaming Assistant</strong>
+        <video src="https://github.com/user-attachments/assets/d6d614e4-2e66-4b5c-8c2b-43f9dec1f362" width="400" controls></video>
       </td>
       <td align="center" width="50%">
-        <strong>Software Installation</strong>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/gaming-assistant.mp4" width="400" controls></video>
-      </td>
-      <td align="center" width="50%">
-        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/software-installation.mp4" width="400" controls></video>
+        <video src="https://github.com/user-attachments/assets/f60ab6c8-2d4f-4af7-9cdb-e7acfd65cd51" width="400" controls></video>
       </td>
     </tr>
   </table>
