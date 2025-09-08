@@ -13,6 +13,14 @@
 
 ---
 
+## Stay Ahead
+
+Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
+
+<div align="center">
+<img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
+</div>
+
 ## Intro
 
 **GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's first out-of-box computer use agent powered by Gemini CLI.
@@ -23,33 +31,45 @@
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Booking Hotel</strong><br/>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Booking Hotel Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <strong>Booking Hotel</strong>
       </td>
       <td align="center" width="50%">
-        <strong>Generate Chart with extra MCP Servers</strong><br/>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Generate Chart Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <strong>Generate Chart with extra MCP Servers</strong>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <strong>Gaming Assistant</strong><br/>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Gaming Assistant Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Booking Hotel Demo"/>
+        </a>
       </td>
       <td align="center" width="50%">
-        <strong>Software Installation</strong><br/>
-        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Software Installation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Generate Chart Demo"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Gaming Assistant</strong>
+      </td>
+      <td align="center" width="50%">
+        <strong>Software Installation</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Gaming Assistant Demo"/>
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Software Installation Demo"/>
+        </a>
       </td>
     </tr>
   </table>
-</div>
-
-## Stay Ahead
-
-Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
-
-<div align="center">
-<img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
 </div>
 
 ## Why GACUA?
@@ -60,7 +80,6 @@ GACUA extends the core capabilities of GeminiCLI to provide a robust agentic exp
 - 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "special image slicing + two-step grounding" method.
 - 🔬 **Gain Step-by-Step Control & Observability**: Unlike black-box agents, GACUA offers a transparent, step-by-step execution flow. You can review, accept, or reject each action the agent proposes, giving you full control over the task's completion.
 - 🌐 **Enable Remote Operation**: You can access your agent from a separate device. The agent runs in its own independent environment, so you no longer have to "fight" with it for mouse and keyboard control while the agent works.
-
 
 ## Quick Start
 
@@ -95,9 +114,6 @@ npm install -g @gacua/backend && gacua
 
 Follow the on-screen prompts to complete the setup. Once the setup is finished, you can access the GACUA server from a web browser on your controlling device.
 
-
-<br>
-
 > \[!IMPORTANT]
 > 
 > **Network Configuration**
@@ -110,8 +126,6 @@ Follow the on-screen prompts to complete the setup. Once the setup is finished, 
 > - **Use a mobile hotspot:** If you don't have a shared Wi-Fi network, you can use your phone's hotspot and connect your computer to it.
 > - **Check your firewall:** Your computer's firewall might block incoming connections. If you can't connect, ensure that your firewall settings allow access to the port GACUA is running on. You may need to create a new inbound rule for Node.js or the specific port.
 
-<br>
-
 ## [Advanced] Running GACUA in Decoupled Mode
 
 GACUA includes a specialized MCP (Model-View-Controller-Prompter) tool for computer control and operates as a web server. This architecture creates a seamless connection between the computer you want to control and the device you're using to issue commands.
@@ -120,13 +134,9 @@ By default, GACUA runs as an all-in-one application. However, for more advanced 
 
 This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API access) from its **💪 Body** (which executes commands), allowing them to operate on different machines.
 
-<br>
-
 > \[!IMPORTANT]
 >
 > A stable network connection between the two machines is crucial for this mode to function correctly.
-
-<br>
 
 1. Start the MCP computer server (the **💪 Body**).
 
@@ -182,13 +192,9 @@ For active development, this mode provides hot-reloading for the frontend and ba
 
 This command starts the Vite frontend server (on port `5173`) and the Express backend server (on port `3000`). Follow the link printed in your terminal, but **remember to change the backend URL's port from `3000` to `5173` in the UI**. The Vite server is configured to proxy requests to the backend.
 
-<br>
-
 > \[!IMPORTANT]
 >
 > The `dev` command only watches for changes in the `@gacua/backend` and `@gacua/frontend` packages. If you modify any other package, you will need to stop the server and run `npm run build` again.
-
-<br>
 
 ### Run After Building (Production Simulation)
 
