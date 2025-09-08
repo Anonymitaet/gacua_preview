@@ -2,11 +2,11 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
-[![Discord](https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord)](https://discord.gg/GwDjT64r88)
-
 <p align="center">
-  <a href="#showcases">Discord</a> •
-  <a href="#why-gacua">Blog</a>
+  <a href="https://discord.gg/KK3zXcMkhg">
+    <img src="https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord" alt="Discord">
+  </a> •
+  <a href="https://blog.mulerun.com">Blog</a>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 
 ## Showcases
 
-**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's **first** out-of-box computer use agent powered by Gemini CLI.
+**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's **first** out-of-the-box computer use agent powered by Gemini CLI.
 
 <div align="center">
   <table>
@@ -59,7 +59,7 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 
 ## Why GACUA?
 
-GACUA extends the core capabilities of GeminiCLI to provide a robust agentic experience. It enables you to:
+GACUA extends the core capabilities of Gemini CLI to provide a robust agentic experience. It enables you to:
 
 - 💻 **Enjoy Out-of-the-Box Computer Use**: Get started with a single command. GACUA provides a free and immediate way to experience computer use, from assisting with gameplay, installing software, and more.
 - 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "special image slicing + two-step grounding" method.
