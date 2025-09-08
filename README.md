@@ -2,6 +2,10 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
+<p align="center">
+  <a href="#showcases">Discord</a> •
+  <a href="#why-gacua">Blog</a> 
+</p>
 
 <p align="center">
   <a href="#showcases">Showcases</a> •
@@ -21,11 +25,10 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 <img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
 </div>
 
-## Intro
-
-**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's first out-of-box computer use agent powered by Gemini CLI.
 
 ## Showcases
+
+**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's first out-of-box computer use agent powered by Gemini CLI.
 
 <div align="center">
   <table>
@@ -71,6 +74,10 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     </tr>
   </table>
 </div>
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
 
 ## Why GACUA?
 
@@ -162,6 +169,10 @@ This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API acces
 
    - `GACUA_MCP_COMPUTER_URL`: it tells the "Brain" the endpoint of the "Body" you started in the previous step.
 
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
+
 ## Development
 
 Interested in contributing to GACUA? Here’s how you can get your development environment set up and run the project from source.
@@ -248,11 +259,19 @@ To test the `gacua` command-line interface from your local build (simulating how
     npx gacua
     ```
 
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
+
 ## Learn More
 
 - [blog-title](url): xx
 - [Under the Hood: GACUA's Architecture](url): A deep dive into GACUA's core decoupled components.
 - [Troubleshooting](url): Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
 
 ## Roadmap
 
@@ -302,6 +321,10 @@ GACUA is just getting started. Here are some of the key directions we can explor
   To improve efficiency, we can optimize manage complex prompts. This will allow you to save long, frequently used prompts as configurations and reference them later with a simple @alias (a form of manual RAG), keeping your process streamlined.
   
   </details>
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
 
 ## License
 
