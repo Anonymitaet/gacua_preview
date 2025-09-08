@@ -2,7 +2,7 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
-[![Discord](https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord)](https://discord.com/invite/d9ewZkWPTP)
+[![Discord](https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord)](https://discord.gg/GwDjT64r88)
 
 <p align="center">
   <a href="#showcases">Discord</a> •
@@ -119,7 +119,7 @@ Follow the on-screen prompts to complete the setup. Once the setup is finished, 
 
 ## [Advanced] Running GACUA in Decoupled Mode
 
-GACUA includes a specialized MCP (Model-View-Controller-Prompter) tool for computer control and operates as a web server. This architecture creates a seamless connection between the computer you want to control and the device you're using to issue commands.
+GACUA includes a specialized MCP tool for computer control and operates as a web server. This architecture creates a seamless connection between the computer you want to control and the device you're using to issue commands.
 
 By default, GACUA runs as an all-in-one application. However, for more advanced use cases, such as controlling a computer on a different network, you can run its core components separately. 
 
