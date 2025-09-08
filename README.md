@@ -2,10 +2,6 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
-<p align="center">
-  <a href="#showcases">Discord</a> •
-  <a href="#why-gacua">Blog</a> 
-</p>
 
 <p align="center">
   <a href="#showcases">Showcases</a> •
@@ -99,7 +95,7 @@ Get up and running with GACUA in just a few steps.
 ### Prerequisites
 
 - **Node.js ≥ 20**: GACUA is built on [Node.js](https://nodejs.org/en/download/). The installer will also install npm.
-- **Gemini Authentication:** GACUA needs to authenticate with the Gemini API. While `gemini-cli` is not required to *run* GACUA, the easiest way to set up authentication is by installing and configuring the [Gemini CLI](https://github.com/google-gemini/gemini-cli) first. GACUA will automatically reuse the configuration created by it.
+- **Gemini Authentication:** GACUA needs to authenticate with the Gemini API. While `gemini-cli` is not required to run GACUA, the easiest way to set up authentication is by installing and configuring the [Gemini CLI](https://github.com/google-gemini/gemini-cli) first. GACUA will automatically reuse the configuration created by it.
 
 ### Steps
 
@@ -329,3 +325,7 @@ GACUA is just getting started. Here are some of the key directions we can explor
 ## License
 
 GACUA is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
