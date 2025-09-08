@@ -81,7 +81,7 @@ Get up and running with GACUA in just a few steps.
 ### Prerequisites
 
 - **Node.js ≥ 20**: GACUA is built on [Node.js](https://nodejs.org/en/download/). The installer will also install npm.
-- **Gemini Authentication:** GACUA needs to authenticate with the Gemini API. While `gemini-cli` is not required to run GACUA, the easiest way to set up authentication is by installing and configuring the [Gemini CLI](https://github.com/google-gemini/gemini-cli) first. GACUA will automatically reuse the configuration created by it.
+- **Gemini Authentication:** GACUA needs to authenticate with the Gemini API. While [Gemini CLI](https://github.com/google-gemini/gemini-cli) is not required to run GACUA, the easiest way to set up authentication is by installing and configuring the [Gemini CLI](https://github.com/google-gemini/gemini-cli) first. GACUA will automatically reuse the configuration created by it.
 
 ### Steps
 
@@ -250,8 +250,8 @@ To test the `gacua` command-line interface from your local build (simulating how
 ## Learn More
 
 - [GACUA: A Free and Open-Source Computer Use Agent for Developers](https://blog.mulerun.com/p/gacua-a-free-and-open-source-computer-use-agent-for-developers/): The technical journey behind GACUA, GACUA’s design philosophy, our thoughts on the future, and more.
-- [Under the Hood: GACUA's Architecture](url): A deep dive into GACUA's core decoupled components.
-- [Troubleshooting](url): Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
+- [Under the Hood: GACUA's Architecture](docs/gacua/architecture.md): A deep dive into GACUA's core decoupled components.
+- [Troubleshooting](docs/gacua/troubleshooting.md): Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
 
 <p align="right"> 
 <a href="#top">Back to Top ⬆️ </a>
