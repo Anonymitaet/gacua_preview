@@ -1,83 +1,121 @@
+<div align="center">
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
+</div>
 
 
 <p align="center">
+  <a href="#showcases">Showcases</a> •
+  <a href="#why-gacua">Features</a> •
   <a href="#quick-start">Quick Start</a> •
-  <a href="#features">Features</a> •
-  <a href="#how-it-works">How It Works</a> •
-  <a href="#learn-more">Learn More</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#development">Development</a> •
+  <a href="#roadmap">Roadmap</a>
 </p>
 
 ---
 
-## 🌟 Introduction
+## Intro
 
-GACUA (Gemini CLI as Computer Use Agent) stands at the forefront of human-computer interaction, offering a powerful, open-source tool that reimagines how we control our digital environment. By leveraging the advanced capabilities of the Gemini CLI, GACUA allows you to operate your computer using simple, natural language commands.
+**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's first out-of-box computer use agent powered by Gemini CLI.
 
-While the field of AI-driven computer agents is still in an early, dynamic phase of development, GACUA is a powerful and remarkably user-friendly tool for exploration. It provides a tangible glimpse into the future of computing, making it an exciting project for developers, researchers, and anyone curious about the next wave of AI innovation.
+## Showcases
 
-## ✨ Features
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Booking Hotel</strong>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Booking Hotel Demo"/>
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <strong>Generate Chart with extra MCP Servers</strong>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Generate Chart Demo"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Gaming Assistant</strong>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Gaming Assistant Demo"/>
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <strong>Software Installation</strong>
+        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Software Installation Demo"/>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-GACUA extends the core capabilities of Gemini to give you hands-on control over your computer. Here’s what makes GACUA stand out:
+## Why GACUA?
 
-- **💻 Control Your Computer from Anywhere:** Interact with your computer using natural language commands from your mobile phone or another computer.
-- **🎯 High-Accuracy Grounding:** GACUA enhances Gemini 2.5 Pro's grounding capabilities through advanced image slicing, dramatically improving the accuracy of on-screen element identification.
-- **🕹️ Master OS-Level Operations:** Effortlessly perform a wide range of computer-based tasks, from playing desktop games and configuring OS settings to manipulating software with simple commands.
-- **🔬 Step-by-Step Control & Observability:** Unlike black-box agents, GACUA provides a transparent, step-by-step execution flow. You can review the agent's planning and grounding process and approve or reject each proposed action, giving you full control over the task execution.
+GACUA extends the core capabilities of GeminiCLI to provide a robust agentic experience. It enables you to:
 
-## 🚀 Quick Start
+- 💻 **Enjoy Out-of-the-Box Computer Use**: Get started with a single command. GACUA provides a free and immediate way to experience computer use, from assisting with gameplay, installing software, and more.
+- 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "special image slicing + two-step grounding" method.
+- 🔬 **Gain Step-by-Step Control & Observability**: Unlike black-box agents, GACUA offers a transparent, step-by-step execution flow. You can review, accept, or reject each action the agent proposes, giving you full control over the task's completion.
+- 🌐 **Enable Remote Operation**: You can access your agent from a separate device. The agent runs in its own independent environment, so you no longer have to "fight" with it for mouse and keyboard control while the agent works.
+
+
+## Quick Start
 
 Get up and running with GACUA in just a few steps.
 
 ### Prerequisites
 
-- **Node.js (version 20 or higher):** GACUA is built on Node.js. If you don't have it installed, you can download it from the [official Node.js website](https://nodejs.org/en/download/). The installer will also install npm (Node Package Manager).
+- **Node.js ≥ 20**: GACUA is built on [Node.js](https://nodejs.org/en/download/). The installer will also install npm.
 - **Gemini Authentication:** GACUA needs to authenticate with the Gemini API. While `gemini-cli` is not required to *run* GACUA, the easiest way to set up authentication is by installing and configuring the [Gemini CLI](https://github.com/google-gemini/gemini-cli) first. GACUA will automatically reuse the configuration created by it.
 
-### Installation and Execution
+### Steps
 
-Simply run the following command in your terminal to start GACUA:
+Simply run the following command to start GACUA.
 
 ```bash
 npx @gacua/backend
 ```
 
-This command uses `npx` (Node Package Execute) to download and run the GACUA backend package without needing to install it globally. The first time you run this, it may take a few moments to download the necessary files. To see detailed installation progress, place the `--verbose` flag immediately after `npx`:
+This command uses `npx` to download and run the GACUA backend package without needing to install it globally. The first time you run this, it may take a few moments to download the necessary files. 
+
+To see detailed installation progress, run the following command.
 
 ```bash
 npx --verbose @gacua/backend
 ```
 
-Alternatively, you can install GACUA globally using npm:
+Alternatively, you can install GACUA globally using npm. This will install the GACUA package on your system, allowing you to run it from any directory by simply typing `gacua`.
 
 ```bash
 npm install -g @gacua/backend && gacua
 ```
 
-This will install the GACUA package on your system, allowing you to run it from any directory by simply typing `gacua`.
+Follow the on-screen prompts to complete the setup. Once the setup is finished, you can access the GACUA server from a web browser on your controlling device.
 
-### ❗️ Important: Network Configuration
+> ‼️ **Note**: Network Configuration
+>
+> GACUA operates as a local web server, allowing you to control your PC from another device, like a mobile phone. For this to work, **both devices must be on the same network**.
+>
+> - **Connect to the same Wi-Fi:** The simplest method is to connect your computer and your controlling device (e.g., your phone) to the same Wi-Fi network.
+> - **Use a mobile hotspot:** If you don't have a shared Wi-Fi network, you can use your phone's hotspot and connect your computer to it.
+> - **Check your firewall:** Your computer's firewall might block incoming connections. If you can't connect, ensure that your firewall settings allow access to the port GACUA is running on. You may need to create a new inbound rule for Node.js or the specific port.
 
-GACUA operates as a local web server, allowing you to control your PC from another device, like a mobile phone. For this to work, **both devices must be on the same network**.
-
-- **Connect to the same Wi-Fi:** The simplest method is to connect your computer and your controlling device (e.g., your phone) to the same Wi-Fi network.
-- **Use a mobile hotspot:** If you don't have a shared Wi-Fi network, you can use your phone's hotspot and connect your computer to it.
-- **Check your firewall:** Your computer's firewall might block incoming connections. If you can't connect, ensure that your firewall settings allow access to the port GACUA is running on. You may need to create a new inbound rule for Node.js or the specific port.
-
-## 🔧 How It Works
+## [Advanced] Running GACUA in Decoupled Mode
 
 GACUA includes a specialized MCP (Model-View-Controller-Prompter) tool for computer control and operates as a web server. This architecture creates a seamless connection between the computer you want to control and the device you're using to issue commands.
 
-### Running GACUA in Decoupled Mode
+By default, GACUA runs as an all-in-one application. However, for more advanced use cases, such as controlling a computer on a different network, you can run its core components separately. 
 
-By default, GACUA runs as an all-in-one application. However, for more advanced use cases, such as controlling a computer on a different network, you can run its core components separately. This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API access) from its **💪 Body** (which executes commands), allowing them to operate on different machines.
+This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API access) from its **💪 Body** (which executes commands), allowing them to operate on different machines.
 
-**A stable network connection between the two machines is crucial for this mode to function correctly.**
+> **‼️ Note**: A stable network connection between the two machines is crucial for this mode to function correctly.
 
-1. **Start the MCP computer server (the 💪 Body):**
+1. Start the MCP computer server (the **💪 Body**).
 
-   On the computer you want to control, run the following command. This machine **does not** need your Gemini API keys.
+   On the **computer you want to control**, run the following command. This machine **does not** need your Gemini API keys.
 
    ```bash
    npx @gacua/mcp-computer --host <MCP_HOST> --port <MCP_PORT>
@@ -85,31 +123,32 @@ By default, GACUA runs as an all-in-one application. However, for more advanced 
 
    This command starts the MCP server, which will listen for commands to execute on the local machine.
 
-2. **Launch the GACUA backend (the 🧠 Brain):**
+2. Launch the GACUA backend (**the 🧠 Brain**).
 
-   On the controlling device with authenticated access to the Gemini API, run the following command:
+   On the **controlling device** with authenticated access to the Gemini API, run the following command:
 
    ```bash
    GACUA_MCP_COMPUTER_URL=http://<MCP_HOST>:<MCP_PORT>/mcp npx @gacua/backend
    ```
 
-   - `GACUA_MCP_COMPUTER_URL`: This environment variable tells the "Brain" the endpoint of the "Body" you started in the previous step.
+   - `GACUA_MCP_COMPUTER_URL`: it tells the "Brain" the endpoint of the "Body" you started in the previous step.
 
-## 🛠️ Development
+## Development
 
 Interested in contributing to GACUA? Here’s how you can get your development environment set up and run the project from source.
 
 ### Initial Setup
 
-After cloning the repository, you need to install the dependencies and perform an initial build. This is a required first step.
+After cloning the repository, you need to install the dependencies and perform an initial build. 
 
-1.  **Install all package dependencies:**
+1.  Install all package dependencies.
 
     ```bash
     npm install
     ```
 
-2.  **Build all packages:**
+2.  Build all packages.
+   
     This command compiles all the packages within the monorepo.
 
     ```bash
@@ -120,7 +159,7 @@ After cloning the repository, you need to install the dependencies and perform a
 
 For active development, this mode provides hot-reloading for the frontend and backend.
 
-1.  **Start the development servers:**
+1.  Start the development servers.
 
     ```bash
     npm run dev:gacua
@@ -132,15 +171,15 @@ This command starts the Vite frontend server (on port `5173`) and the Express ba
 
 ### Run After Building (Production Simulation)
 
-To run the application as it would be in production, where the backend serves the built frontend files:
+To run the application as it would be in production, where the backend serves the built frontend files.
 
-1.  **Build the project (if you have new changes):**
+1.  Build the project (if you have new changes).
 
     ```bash
     npm run build
     ```
 
-2.  **Start the application:**
+2.  Start the application.
 
     ```bash
     npm run start:gacua
@@ -150,21 +189,21 @@ In this mode, the frontend artifacts are served by the backend, so you can acces
 
 ### Testing the Local Binary with npx
 
-To test the `gacua` command-line interface from your local build (simulating how a user would run it), follow these steps carefully:
+To test the `gacua` command-line interface from your local build (simulating how a user would run it), follow these steps carefully.
 
-1.  **Install dependencies:**
+1.  Install dependencies.
 
     ```bash
     npm install
     ```
 
-2.  **Build all packages:**
+2.  Build all packages.
 
     ```bash
     npm run build
     ```
 
-3.  **Install again to link the binary:**
+3.  Install again to link the binary.
 
     ```bash
     npm install
@@ -172,28 +211,75 @@ To test the `gacua` command-line interface from your local build (simulating how
 
     This second `npm install` is crucial. After the `build` step creates the executable files, this command links the local `gacua` binary into the `node_modules/.bin` directory, making it available to `npx`.
 
-4.  **Run GACUA:**
+4.  Run GACUA.
 
     ```bash
     npx gacua
     ```
 
-## 📚 Learn More
+## Learn More
 
-- **Why We Built GACUA: Our Story and Learnings:** Dive into the technical challenges and key insights from our development journey.
-- **Under the Hood: GACUA's Architecture:** A deep dive into GACUA's core decoupled components.
-- **Troubleshooting:** Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
+- [blog-title](url): xx
+- [Under the Hood: GACUA's Architecture](url): A deep dive into GACUA's core decoupled components.
+- [Troubleshooting](url): Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
 
-## 🤝 Contributing to GACUA
+## Roadmap
 
-We welcome contributions from the community! Whether you want to fix a bug, add a new feature, or improve the documentation, your help is valuable. To get started, check out our [Contributing to GACUA](CONTRIBUTING.md) guide to set up your local development environment and learn how you can help shape the future of GACUA.
+GACUA is just getting started. Here are some of the key directions we can explore to make GACUA more powerful, flexible, and reliable.
 
-## ⭐ Stay Ahead
+- [ ] **Enhanced grounding**
+  
+  <details>
+  <summary>Details</summary>
+  
+  To further improve grounding accuracy, we can adopt a "heavy mode". This mode calls the model twice consecutively (with varying temperatures). If the bounding box overlap exceeds 50%, then the overlap is adopted as the result. Otherwise, the process is repeated until two consecutive results exceed 50%.
+  
+  </details>
 
-[Star GACUA on GitHub](TBD) to be instantly notified of updates. Your support means everything to us! ❤️
+- [ ] **Pluggable agent architecture**
+  
+  <details>
+  <summary>Details</summary>
+  
+  GACUA's architecture decouples the Interface from the Agent, which allows you to replace various components——including models, tools, system prompts, and workflows. Additionally, you can leverage the GACUA UI for debugging, as it shows the entire "Planning" and "Grounding" process. Moreover, you can also use GACUA for rapidly testing and benchmarking different vision models.
+  
+  </details>
 
-<img width="210" height="118" alt="star2" src="https://github.com/user-attachments/assets/415202c1-a59d-4a8c-875e-4f5247b432b1" />
+- [ ] **Autonomous tool & skill acquisition**
+  
+  <details>
+  <summary>Details</summary>
+  
+  Repetitive sub-tasks, like "opening a specific webpage in Chrome," are inefficient and token-intensive. You can empower GACUA to recognize and summarize these recurring operational patterns, automatically creating new, persistent tools. These self-generated tools can then be called by the agent in future runs, allowing it to learn and continuously improve its capabilities over time.
+  
+  </details>
 
-## 📜 License
+- [ ] **CLI mode**
+  
+  <details>
+  <summary>Details</summary>
+  
+  Once GACUA's capabilities are robust enough for users to trust it with full autonomy, we can introduce a CLI mode (similar to Gemini CLI). This will also allow GACUA to function as a standardized tool that can be used by other agents.
+  
+  </details>
+
+- [ ] **Prompt management**
+  
+  <details>
+  <summary>Details</summary>
+  
+  To improve efficiency, we can optimize manage complex prompts. This will allow you to save long, frequently used prompts as configurations and reference them later with a simple @alias (a form of manual RAG), keeping your process streamlined.
+  
+  </details>
+
+## Stay Ahead
+
+Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
+
+<div align="center">
+<img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
+</div>
+
+## License
 
 GACUA is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
