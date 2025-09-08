@@ -11,6 +11,8 @@
   </a>
 </div>
 
+<br>
+
 <p align="center">
   <a href="https://blog.mulerun.com">Blog</a> •
   <a href="#showcases">Showcases</a> •
@@ -20,11 +22,9 @@
   <a href="#roadmap">Roadmap</a>
 </p>
 
----
-
 ## Stay Ahead
 
-Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
+**Star GACUA** on GitHub to be instantly notified of updates. Your support means everything to us! ❤️
 
 <div align="center">
 <img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
@@ -65,9 +65,11 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 GACUA extends the core capabilities of Gemini CLI to provide a robust agentic experience. It enables you to:
 
 - 💻 **Enjoy Out-of-the-Box Computer Use**: Get started with a single command. GACUA provides a free and immediate way to experience computer use, from assisting with gameplay, installing software, and more.
-- 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "special image slicing + two-step grounding" method.
+- 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "Image Slicing + Two-Step Grounding" method.
 - 🔬 **Gain Step-by-Step Control & Observability**: Unlike black-box agents, GACUA offers a transparent, step-by-step execution flow. You can review, accept, or reject each action the agent proposes, giving you full control over the task's completion.
 - 🌐 **Enable Remote Operation**: You can access your agent from a separate device. The agent runs in its own independent environment, so you no longer have to "fight" with it for mouse and keyboard control while the agent works.
+
+For , read .
 
 <p align="right"> 
 <a href="#top">Back to Top ⬆️ </a>
