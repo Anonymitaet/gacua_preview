@@ -2,14 +2,17 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
-<p align="center">
+<div align="center">
   <a href="https://discord.gg/KK3zXcMkhg">
-    <img src="https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord" alt="Discord">
-  </a> •
-  <a href="https://blog.mulerun.com">Blog</a>
-</p>
+    <img src="https://img.shields.io/discord/1375677271825846432?color=5865F2&logo=discord&logoColor=white&label=Discord&labelColor=5865F2" alt="Discord">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-Apache%202.0-green.svg" alt="License">
+  </a>
+</div>
 
 <p align="center">
+  <a href="https://blog.mulerun.com">Blog</a> •
   <a href="#showcases">Showcases</a> •
   <a href="#why-gacua">Features</a> •
   <a href="#quick-start">Quick Start</a> •
