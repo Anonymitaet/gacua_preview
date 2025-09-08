@@ -28,7 +28,7 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
 
 ## Showcases
 
-**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's first out-of-box computer use agent powered by Gemini CLI.
+**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's **first** out-of-box computer use agent powered by Gemini CLI.
 
 <div align="center">
   <table>
@@ -42,14 +42,10 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     </tr>
     <tr>
       <td align="center" width="50%">
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Booking Hotel Demo"/>
-        </a>
+        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/agent-tars-book-hotel.mp4" width="400" controls></video>
       </td>
       <td align="center" width="50%">
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Generate Chart Demo"/>
-        </a>
+        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/mcp-chart.mp4" width="400" controls></video>
       </td>
     </tr>
     <tr>
@@ -62,14 +58,10 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     </tr>
     <tr>
       <td align="center" width="50%">
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Gaming Assistant Demo"/>
-        </a>
+        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/gaming-assistant.mp4" width="400" controls></video>
       </td>
       <td align="center" width="50%">
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Software Installation Demo"/>
-        </a>
+        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/software-installation.mp4" width="400" controls></video>
       </td>
     </tr>
   </table>
@@ -129,8 +121,6 @@ Follow the on-screen prompts to complete the setup. Once the setup is finished, 
 > 
 > **Network Configuration**
 > 
-> The `dev` command only watches for changes in the `@gacua/backend` and `@gacua/frontend` packages. If you modify any other package, you will need to stop the server and run `npm run build` again.
->
 > GACUA operates as a local web server, allowing you to control your PC from another device, like a mobile phone. For this to work, **both devices must be on the same network**.
 >
 > - **Connect to the same Wi-Fi:** The simplest method is to connect your computer and your controlling device (e.g., your phone) to the same Wi-Fi network.
@@ -171,7 +161,7 @@ This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API acces
    GACUA_MCP_COMPUTER_URL=http://<MCP_HOST>:<MCP_PORT>/mcp npx @gacua/backend
    ```
 
-   - `GACUA_MCP_COMPUTER_URL`: it tells the "Brain" the endpoint of the "Body" you started in the previous step.
+    `GACUA_MCP_COMPUTER_URL`: it tells the "Brain" the endpoint of the "Body" you started in the previous step.
 
 <p align="right"> 
 <a href="#top">Back to Top ⬆️ </a>
@@ -203,11 +193,11 @@ After cloning the repository, you need to install the dependencies and perform a
 
 For active development, this mode provides hot-reloading for the frontend and backend.
 
-1.  Start the development servers.
+Start development servers.
 
-    ```bash
-    npm run dev:gacua
-    ```
+```bash
+npm run dev:gacua
+```
 
 This command starts the Vite frontend server (on port `5173`) and the Express backend server (on port `3000`). Follow the link printed in your terminal, but **remember to change the backend URL's port from `3000` to `5173` in the UI**. The Vite server is configured to proxy requests to the backend.
 
