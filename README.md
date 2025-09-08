@@ -42,7 +42,7 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     </tr>
     <tr>
       <td align="center" width="50%">
-        <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/agent-tars-book-hotel.mp4" width="400" controls></video>
+        <video src="https://github.com/user-attachments/assets/afd03459-9588-429a-85a9-4f90f3358959" width="400" controls></video>
       </td>
       <td align="center" width="50%">
         <video src="https://github.com/openmule/gemini-cli/raw/main/demo-videos/mcp-chart.mp4" width="400" controls></video>
