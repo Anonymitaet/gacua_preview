@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <a href="https://blog.mulerun.com">Blog</a> •
+  <a href="https://blog.mulerun.com/p/gacua-a-free-and-open-source-computer-use-agent-for-developers/">Blog</a> •
   <a href="#showcases">Showcases</a> •
   <a href="#why-gacua">Features</a> •
   <a href="#quick-start">Quick Start</a> •
@@ -30,10 +30,9 @@
 <img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
 </div>
 
-
 ## Showcases
 
-**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's **first** out-of-the-box computer use agent powered by Gemini CLI.
+**GACUA** (**G**emini CLI **a**s **C**omputer **U**se **A**gent) is the world's **first** out-of-the-box computer use agent powered by [Gemini CLI](https://github.com/google-gemini/gemini-cli).
 
 <div align="center">
   <table>
@@ -62,14 +61,14 @@
 
 ## Why GACUA?
 
-GACUA extends the core capabilities of Gemini CLI to provide a robust agentic experience. It enables you to:
+GACUA extends the core capabilities of [Gemini CL](https://github.com/google-gemini/gemini-cli)I to provide a robust agentic experience. It enables you to:
 
 - 💻 **Enjoy Out-of-the-Box Computer Use**: Get started with a single command. GACUA provides a free and immediate way to experience computer use, from assisting with gameplay, installing software, and more.
 - 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "Image Slicing + Two-Step Grounding" method.
 - 🔬 **Gain Step-by-Step Control & Observability**: Unlike black-box agents, GACUA offers a transparent, step-by-step execution flow. You can review, accept, or reject each action the agent proposes, giving you full control over the task's completion.
 - 🌐 **Enable Remote Operation**: You can access your agent from a separate device. The agent runs in its own independent environment, so you no longer have to "fight" with it for mouse and keyboard control while the agent works.
 
-For , read .
+For the Technical Journey Behind GACUA, see [GACUA: A Free and Open-Source Computer Use Agent for Developers](https://blog.mulerun.com/p/gacua-a-free-and-open-source-computer-use-agent-for-developers/).
 
 <p align="right"> 
 <a href="#top">Back to Top ⬆️ </a>
@@ -250,7 +249,7 @@ To test the `gacua` command-line interface from your local build (simulating how
 
 ## Learn More
 
-- [blog-title](url): xx
+- [GACUA: A Free and Open-Source Computer Use Agent for Developers](https://blog.mulerun.com/p/gacua-a-free-and-open-source-computer-use-agent-for-developers/): The technical journey behind GACUA, GACUA’s design philosophy, our thoughts on the future, and more.
 - [Under the Hood: GACUA's Architecture](url): A deep dive into GACUA's core decoupled components.
 - [Troubleshooting](url): Solutions to common issues, such as the agent capturing black screenshots when run via SSH.
 
@@ -294,7 +293,7 @@ GACUA is just getting started. Here are some of the key directions we can explor
   <details>
   <summary>Details</summary>
   
-  Once GACUA's capabilities are robust enough for users to trust it with full autonomy, we can introduce a CLI mode (similar to Gemini CLI). This will also allow GACUA to function as a standardized tool that can be used by other agents.
+  Once GACUA's capabilities are robust enough for users to trust it with full autonomy, we can introduce a CLI mode (similar to [Gemini CLI](https://github.com/google-gemini/gemini-cli)). This will also allow GACUA to function as a standardized tool that can be used by other agents.
   
   </details>
 
@@ -306,6 +305,14 @@ GACUA is just getting started. Here are some of the key directions we can explor
   To improve efficiency, we can optimize manage complex prompts. This will allow you to save long, frequently used prompts as configurations and reference them later with a simple @alias (a form of manual RAG), keeping your process streamlined.
   
   </details>
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
+
+## Acknowledgement
+
+GACUA is built on top of [Gemini CLI](https://github.com/google-gemini/gemini-cli) and inspired by [Agent-S](https://github.com/simular-ai/Agent-S) and [nut.js](https://github.com/nut-tree/nut.js). We're grateful for their contributions.
 
 <p align="right"> 
 <a href="#top">Back to Top ⬆️ </a>
