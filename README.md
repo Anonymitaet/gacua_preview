@@ -133,6 +133,10 @@ Follow the on-screen prompts to complete the setup. Once the setup is finished, 
 > - **Use a mobile hotspot:** If you don't have a shared Wi-Fi network, you can use your phone's hotspot and connect your computer to it.
 > - **Check your firewall:** Your computer's firewall might block incoming connections. If you can't connect, ensure that your firewall settings allow access to the port GACUA is running on. You may need to create a new inbound rule for Node.js or the specific port.
 
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
+
 ## [Advanced] Running GACUA in Decoupled Mode
 
 GACUA includes a specialized MCP (Model-View-Controller-Prompter) tool for computer control and operates as a web server. This architecture creates a seamless connection between the computer you want to control and the device you're using to issue commands.
