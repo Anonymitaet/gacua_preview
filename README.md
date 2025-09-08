@@ -23,33 +23,33 @@
   <table>
     <tr>
       <td align="center" width="50%">
-        <strong>Booking Hotel</strong>
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Booking Hotel Demo"/>
-        </a>
+        <strong>Booking Hotel</strong><br/>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Booking Hotel Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </td>
       <td align="center" width="50%">
-        <strong>Generate Chart with extra MCP Servers</strong>
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Generate Chart Demo"/>
-        </a>
+        <strong>Generate Chart with extra MCP Servers</strong><br/>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Generate Chart Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
-        <strong>Gaming Assistant</strong>
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Gaming Assistant Demo"/>
-        </a>
+        <strong>Gaming Assistant</strong><br/>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Gaming Assistant Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </td>
       <td align="center" width="50%">
-        <strong>Software Installation</strong>
-        <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Software Installation Demo"/>
-        </a>
+        <strong>Software Installation</strong><br/>
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/8xyVcNurK-4" title="Software Installation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </td>
     </tr>
   </table>
+</div>
+
+## Stay Ahead
+
+Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
+
+<div align="center">
+<img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
 </div>
 
 ## Why GACUA?
@@ -95,13 +95,22 @@ npm install -g @gacua/backend && gacua
 
 Follow the on-screen prompts to complete the setup. Once the setup is finished, you can access the GACUA server from a web browser on your controlling device.
 
-> ‼️ **Note**: Network Configuration
+
+<br>
+
+> \[!IMPORTANT]
+> 
+> **Network Configuration**
+> 
+> The `dev` command only watches for changes in the `@gacua/backend` and `@gacua/frontend` packages. If you modify any other package, you will need to stop the server and run `npm run build` again.
 >
 > GACUA operates as a local web server, allowing you to control your PC from another device, like a mobile phone. For this to work, **both devices must be on the same network**.
 >
 > - **Connect to the same Wi-Fi:** The simplest method is to connect your computer and your controlling device (e.g., your phone) to the same Wi-Fi network.
 > - **Use a mobile hotspot:** If you don't have a shared Wi-Fi network, you can use your phone's hotspot and connect your computer to it.
 > - **Check your firewall:** Your computer's firewall might block incoming connections. If you can't connect, ensure that your firewall settings allow access to the port GACUA is running on. You may need to create a new inbound rule for Node.js or the specific port.
+
+<br>
 
 ## [Advanced] Running GACUA in Decoupled Mode
 
@@ -111,7 +120,13 @@ By default, GACUA runs as an all-in-one application. However, for more advanced 
 
 This "decoupled mode" separates GACUA's **🧠 Brain** (which requires API access) from its **💪 Body** (which executes commands), allowing them to operate on different machines.
 
-> **‼️ Note**: A stable network connection between the two machines is crucial for this mode to function correctly.
+<br>
+
+> \[!IMPORTANT]
+>
+> A stable network connection between the two machines is crucial for this mode to function correctly.
+
+<br>
 
 1. Start the MCP computer server (the **💪 Body**).
 
@@ -167,7 +182,13 @@ For active development, this mode provides hot-reloading for the frontend and ba
 
 This command starts the Vite frontend server (on port `5173`) and the Express backend server (on port `3000`). Follow the link printed in your terminal, but **remember to change the backend URL's port from `3000` to `5173` in the UI**. The Vite server is configured to proxy requests to the backend.
 
-**Note:** The `dev` command only watches for changes in the `@gacua/backend` and `@gacua/frontend` packages. If you modify any other package, you will need to stop the server and run `npm run build` again.
+<br>
+
+> \[!IMPORTANT]
+>
+> The `dev` command only watches for changes in the `@gacua/backend` and `@gacua/frontend` packages. If you modify any other package, you will need to stop the server and run `npm run build` again.
+
+<br>
 
 ### Run After Building (Production Simulation)
 
@@ -271,14 +292,6 @@ GACUA is just getting started. Here are some of the key directions we can explor
   To improve efficiency, we can optimize manage complex prompts. This will allow you to save long, frequently used prompts as configurations and reference them later with a simple @alias (a form of manual RAG), keeping your process streamlined.
   
   </details>
-
-## Stay Ahead
-
-Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates. Your support means everything to us! ❤️
-
-<div align="center">
-<img width="250" height="175" alt="star" src="https://github.com/user-attachments/assets/b3f60290-b977-4445-a45f-9e620dfa2640" />
-</div>
 
 ## License
 
