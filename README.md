@@ -40,12 +40,12 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     <tr>
       <td align="center" width="50%">
         <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Booking Hotel Demo"/>
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Booking Hotel Demo"/>
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Generate Chart Demo"/>
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Generate Chart Demo"/>
         </a>
       </td>
     </tr>
@@ -60,12 +60,12 @@ Star GACUA on [GitHub](https://github.com/) to be instantly notified of updates.
     <tr>
       <td align="center" width="50%">
         <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Gaming Assistant Demo"/>
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Gaming Assistant Demo"/>
         </a>
       </td>
       <td align="center" width="50%">
         <a href="https://www.youtube.com/watch?v=8xyVcNurK-4">
-          <img src="https://img.youtube.com/vi/8xyVcNurK-4/maxresdefault.jpg" width="400" alt="Software Installation Demo"/>
+          <img src="https://img.youtube.com/vi/8xyVcNurK-4/0.jpg" width="400" style="border: 2px solid #ddd; border-radius: 8px;" alt="Software Installation Demo"/>
         </a>
       </td>
     </tr>
@@ -80,6 +80,10 @@ GACUA extends the core capabilities of GeminiCLI to provide a robust agentic exp
 - 🎯 **Execute Tasks with High Accuracy**: GACUA enhances Gemini 2.5 Pro's grounding capability through a "special image slicing + two-step grounding" method.
 - 🔬 **Gain Step-by-Step Control & Observability**: Unlike black-box agents, GACUA offers a transparent, step-by-step execution flow. You can review, accept, or reject each action the agent proposes, giving you full control over the task's completion.
 - 🌐 **Enable Remote Operation**: You can access your agent from a separate device. The agent runs in its own independent environment, so you no longer have to "fight" with it for mouse and keyboard control while the agent works.
+
+<p align="right"> 
+<a href="#top">Back to Top ⬆️ </a>
+</p>
 
 ## Quick Start
 
