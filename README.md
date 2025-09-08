@@ -2,6 +2,10 @@
 <img width="1730" height="521" alt="logo-11" src="https://github.com/user-attachments/assets/5550063b-7ff8-4c1f-b511-83f48ac862fe" />
 </div>
 
+<p align="center">
+  <a href="#showcases">Discord</a> •
+  <a href="#why-gacua">Blog</a>
+</p>
 
 <p align="center">
   <a href="#showcases">Showcases</a> •
